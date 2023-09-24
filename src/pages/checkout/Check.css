@@ -1,0 +1,15 @@
+
+.container{
+    font-size: 20px;
+   
+}
+
+.checkbox{
+    font-size: 12px;
+}
+
+span{
+    color:red;
+  font-size: 15px;
+   text-decoration: underline;
+} 

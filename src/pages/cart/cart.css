@@ -1,0 +1,112 @@
+
+.card-container{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding:5%;
+}
+
+.card{
+    border:solid 1px;
+    width:300px;
+    height: 300px;
+    margin:10px;
+    border-radius:20px;
+    
+    background-color:#fffefe;
+
+    overflow: hidden;
+}
+.img-tag{
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: 0 auto;
+    
+}
+.title-tag{
+    overflow: hidden;
+    font-size: large;
+    text-align: center;
+}
+.price-tag{
+    margin:auto;
+    text-align: center;
+   
+}
+
+.empty{
+    font-Size:40px;
+    text-align:center;
+    font-weight: bold;
+}
+
+.image-empty{
+    width:"500";
+    height: 397px;
+    display: block;
+    margin: 0 auto;
+}
+
+.carts{
+    margin:60px;
+    color:#E7E7E7;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.cartsection{
+    padding:20px;
+    margin:40px;
+    background-color:#2B2B2B;
+
+    height:250px;
+    display:flex;
+    font-size:1.5rem;
+    
+}
+.cart-title{
+    padding:30px;
+    margin:0;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+}
+.product-img{
+    height:200px;
+    width:240px;
+}
+    
+.productcost{
+    padding:20px;
+    width:90%;
+    font-size: medium;
+}
+.btn{
+    top: 10px;
+    padding: 10px;
+    margin:25px;
+    font-weight: 100;
+  
+}
+
+.product{
+    padding:0;
+    width:70%;
+}
+.price{
+    width:30%;
+    margin-top:13%;
+    padding:0;
+    background-color:#2B2B2B;
+    height:300px;
+  
+}
+.price h2{
+    margin:0
+}
+
+.qty{
+    display:inline;
+    margin: auto;
+}
